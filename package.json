@@ -1,0 +1,29 @@
+{
+  "name": "grpc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hemanthudupa/GRPC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hemanthudupa/GRPC/issues"
+  },
+  "homepage": "https://github.com/Hemanthudupa/GRPC#readme",
+  "description": "",
+  "devDependencies": {
+    "@grpc/grpc-js": "^1.13.4",
+    "@grpc/proto-loader": "^0.7.15",
+    "grpc-tools": "^1.13.0",
+    "protoc-gen-grpc": "^3.0.0",
+    "protoc-gen-js": "^3.21.4-4"
+  },
+  "dependencies": {
+    "google-protobuf": "^3.21.4"
+  }
+}
