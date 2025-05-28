@@ -1,0 +1,24 @@
+syntax ="proto3";
+service Todo{
+  
+rpc getName(name) returns (name);
+rpc login (loginCredentials) returns (token);
+rpc testStream (nothing)  returns (stream toDoStream);
+
+}
+  message name{
+    string name=1;
+}
+message nothing {}
+
+message toDoStream {
+  string message = 1;
+}
+message loginCredentials
+{
+  string username=1;
+  string password=2;
+}
+message token{
+  string jwtToken=1;
+}
